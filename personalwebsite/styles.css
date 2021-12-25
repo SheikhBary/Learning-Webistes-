@@ -1,0 +1,792 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.headerText{
+
+    color: aliceblue;
+    
+}
+
+
+.colored{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    /* background-image: url(/Image/Untitled\ design.png);  */
+    background-color: black;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    height: 100vh;
+    min-height: 500px;
+    image-resolution: 80%;
+    font-family:sans-serif;
+}
+
+.navbar-brand{
+    font-size: 4rem;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative ;
+}
+
+
+.navbar .logo a{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    align-content: left;
+    margin-right: 80%;
+
+    
+}
+
+.nav-link{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    position: relative;
+
+
+
+}
+
+.lio{
+color: violet;
+
+}
+
+.brandName{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    margin-right: 80%;
+}
+
+
+
+
+.colorText{
+    display: flex;
+    padding-top: 15rem;
+    padding-bottom: 0%;
+    color: white ;
+    font-family:verdana;
+    font-size: 1.5rem;
+    margin-left: 30%;
+
+}
+
+.name{
+    
+    font-size: 8rem;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    margin-left: 4rem;
+   
+    
+}
+
+.text-3{
+    
+    padding-bottom: 1rem;
+    color: #fff;
+    margin-left: 30%;
+
+}
+
+.button12{
+
+   
+    margin-bottom:1rem;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+    
+}
+
+
+
+.btn2 {
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 14px;
+    background: #d564fa;
+    text-decoration: none;
+    
+  }
+  
+  .btn2:hover {
+    background: #8f3cfc;
+    text-decoration: none;
+  }
+  
+  .btn1 {
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 14px;
+    background: #d564fa;
+    text-decoration: none;
+  }
+  
+  .btn1:hover:hover {
+    background: #8f3cfc;
+    text-decoration: none;
+  }
+
+
+ /* about section styling */
+
+ .aboutColor{
+    background-color: rgb(93, 96, 100);
+    height: 40rem;
+    color: floralwhite;
+    font-size:2rem;
+    font-family: sans-serif;
+    text-align: center;
+
+ }
+
+ #aboutme {
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #d564fa;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45rem;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  #aboutme a:hover {
+    color: #a8a8a8;
+    font-weight: 600;
+  }
+
+
+
+.about .title::after{
+    content: "who i am";
+}
+.about .about-content .left{
+    width: 45%;
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content .right{
+    width: 55%;
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .right .text span{
+    color: crimson;
+}
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: crimson;
+    background: none;
+}
+
+
+.typing-2{
+
+    color: violet;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.text-3{
+
+    font-size: 2rem;
+    color: white;
+}
+
+.text-4{
+
+    text-align: center;
+}
+
+
+.img-round{
+
+    margin-top: 0.6rem;
+    height: auto;
+    width: auto;
+}
+
+.container-fluid{
+
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 5%;
+}
+
+
+/* Try out */
+
+
+
+.wrapper{
+    display: flex;
+    margin-left:20%;
+  }
+  .wrapper .static-txt{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+  }
+  .wrapper .dynamic-txts{
+    margin-left: 0 px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+  }
+  .dynamic-txts li{
+    list-style: none;
+    color: #a684dd;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+  }
+  @keyframes slide {
+    100%{
+      top: -360px;
+    }
+  }
+  .dynamic-txts li span{
+    position: relative;
+    margin:  0;
+    line-height: 90px;
+  }
+  .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 6rem;
+    width: 100%;
+    background-color: black;
+    border-left: 2px solid #a684dd;
+    animation: typing 3s steps(10) infinite;
+  }
+  @keyframes typing {
+    40%, 60%{
+        left: calc(100% + 30px);
+      }
+      100%{
+        left: 0;
+      }
+    }
+
+    
+
+   
+
+      .hr1 {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
+
+
+
+    .button12{
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+
+    
+
+    /* CAROUSEL ABOUT SECTION STARTS HERE */
+
+
+
+.container{
+  width: auto;
+  position: static;
+  display:flex ;
+  max-width: fit-content;
+
+  
+  
+}
+
+.container .card{
+  position: relative;
+  width: 100%;
+}
+
+.container .card .face{
+  width: full-width;
+  height: 500px;
+  transition:.4s;
+  align-content: center;
+  align-items: left;
+  
+}
+
+.container .card .face.face1{
+  position: static;
+  background: #333;
+  display: flex;
+  justify-content: left;
+  align-content:center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+  transform: translateY(0);
+  box-shadow:
+    inset 0 0 60px whitesmoke,
+    inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff,
+    inset 20px 0 300px #f0f,
+    inset -20px 0 300px #0ff,
+    0 0 50px #fff,
+    -10px 0 80px #f0f,
+    10px 0 80px #0ff;
+   
+}
+
+
+.container .card .face.face1 .content{
+  opacity: .2;
+  transition:  0.5s;
+  text-align: center;
+  
+   
+  
+  
+ 
+
+}
+
+.container .card:hover .face.face1 .content{
+  opacity: 1;
+ 
+}
+
+.container .card .face.face1 .content i{
+  font-size: 3em;
+  color: white;
+  display: inline-block;
+   
+}
+
+.container .card .face.face1 .content h3{
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  
+
+}
+
+.container .card .face.face1 .content a{
+   transition: .5s;
+}
+
+.container .card .face.face2{
+   position: relative;
+   background: whitesmoke;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0,0,0,.8);
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+    transform: translateY(0);
+
+
+}
+
+.container .card .face.face2 .content p, a{
+  font-size: 10pt;
+  margin: 0 ;
+  padding: 0;
+  color:#333;
+}
+
+.container .card .face.face2 .content a{
+  text-decoration:none;
+  color: black;
+  box-sizing: border-box;
+  outline : 1px dashed #333;
+  padding: 10px;
+  margin: 15px 0 0;
+  display: inline-block;
+}
+
+.container .card .face.face2 .content a:hover{
+  background: #333 ;
+  color: whitesmoke; 
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+
+/* New Abdul Bary Header */
+
+
+#header {
+    text-align: center;
+   }
+  
+  #welcome {
+    padding-top:70px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #header a {
+    font-size: 2rem;
+    color: #fff;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+  
+  #header a:hover {
+    font-size: 50px;
+  }
+
+  .fa-angle-double-down {
+    vertical-align: 8%;  
+    size: 10%;
+  }
+
+  
+  
+  .buttonDown{
+
+    font-size: 7rem;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  .buttonDown:hover{
+      color: white;
+  }
+
+
+  /* Skills Bar */
+
+  .title-skills {
+    font-size: 2em;
+    margin-top: 4em;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    transition: all 400ms ease-in-out;
+    margin: 4rem auto;
+    text-align: center;
+  }
+  
+  .bar {
+    width: 80%;
+    margin: 2em auto;
+  }
+  
+  .skill {
+    font-size: .8em;
+    text-transform: uppercase;
+    margin-bottom: 0.25em;
+  }
+  
+  .speech-bubble {
+    font-size: 0.75em;
+    line-height: 2em;
+    position: absolute;
+    top: -2.7em;
+    text-align: center;
+    min-width: 3em;
+    border-radius: 0.3em;
+    display: none;
+  }
+  
+  .html,
+  .photo,
+  .fluent {
+    left: calc(75% - 1.5em);
+  }
+  
+  .jquery {
+    left: calc(25% - 1.5em);
+  }
+  
+  .sketch,
+  .illustrator {
+    left: calc(90% - 1.5em);
+  }
+  
+  .indesign {
+    left: calc(85% - 1.5em);
+  }
+  
+  .speech-bubble:after {
+    border: 0.5em solid transparent;
+    content: "";
+    margin-left: -0.5em;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+  }
+  
+  .bar-outer {
+    height: 1.25em;
+    background: #EEEEEE;
+    position: relative;
+    border-radius: 0.3em;
+  }
+  
+  .bar-inner {
+    width: 0;
+    height: 1.25em;
+    border-radius: 0.3em;
+  }
+  
+  .ht, .html {
+    background: #fdeeed;
+  }
+  
+  .html:after {
+    border-top-color: #fdeeed;
+  }
+  
+  .jq, .jquery {
+    background: #fde4e1;
+  }
+  
+  .jquery:after {
+    border-top-color: #fde4e1;
+  }
+  
+  .sk, .sketch {
+    background: #fcd9d5;
+  }
+  
+  .sketch:after {
+    border-top-color: #fcd9d5;
+  }
+  
+  .ph, .photo {
+    background: #fbc9c4;
+  }
+  
+  .photo:after {
+    border-top-color: #fbc9c4;
+  }
+  
+  .il, .illustrator {
+    background: #f9b3ac;
+  }
+  
+  .illustrator:after {
+    border-top-color: #f9b3ac;
+  }
+  
+  .in, .indesign {
+    background: #f89d94;
+  }
+  
+  .indesign:after {
+    border-top-color: #f89d94;
+  }
+  
+  .fl, .fluent {
+    background: #f6877c;
+  }
+  
+  .fluent:after {
+    border-top-color: #f6877c;
+  }
+
+
+  @media (max-width: 2500px) {
+
+
+    
+
+    .img-round {
+
+        max-width: 100%;
+        height: auto;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40%;
+    }
+
+    p{
+
+        font-size: 70%;
+    }
+
+    .btn1{
+
+        margin-left: 1rem;
+    }
+
+
+
+    .navbar{
+
+        align-items: left;
+    }
+
+    .navbar-brand{
+
+        align-content: left ;
+    }
+
+
+    
+
+
+
+}
+
+
+/* Carousel Item Starts Here */
+
+.d-block{
+
+    height: 1000px;
+    width: 100%;
+    
+}
+
+.projects{
+
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+
+
+@media (min-width: 1300px) {
+    /* CSS that should be displayed if width is equal to or less than ^px goes here */
+
+    
+.baryPhoto{
+    position: absolute;
+    margin-left: 30%;
+    border-radius: 50%;
+    height: 600px;
+   width: 600px;
+   margin-top: 0;
+
+   
+
+}
+
+.colorText{
+
+    align-items: center;
+align-content: center;
+text-align: center;
+margin-top: auto;
+display: block;
+margin-left: auto;
+margin-right: auto
+}
+
+.button{
+    margin-left: 20%;
+
+
+}
+
+.button12{
+
+    justify-content: space-between;
+}
+
+
+.name{
+
+    align-items: center;
+align-content: center;
+text-align: center;
+margin-top: auto;
+display: block;
+margin-left: auto;
+margin-right: auto
+}
+
+.wrapper{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+
+  }

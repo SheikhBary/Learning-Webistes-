@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+
+.skill{
+    width: 800px;
+    height: 15px;
+    background-color: gray;
+    border-radius: 8px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: block;
+    margin-bottom: 2rem;
+    margin-left: 33%;
+}
+
+
+.progressBar{
+    width: 0px;
+    height: 15px;
+    background-color: green;
+    border-radius: 8px;
+}
+
+
+.hr1{
+
+height: 100px;
+background-color: red;
+
+}
